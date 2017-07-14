@@ -1,0 +1,35 @@
+﻿.panel-default>.panel-heading {
+	background-color: transparent;
+}
+.glyphicon
+{
+    margin-right:4px !important; /*override*/
+}
+
+.pagination .glyphicon
+{
+    margin-right:0px !important; /*override*/
+}
+
+.pagination a
+{
+    color:#555;
+}
+
+.panel ul
+{
+    padding:0px;
+    margin:0px;
+    list-style:none;
+}
+
+.news-item
+{
+    padding:4px 4px;
+    margin:0px;
+    border-bottom:dotted 1px rgba(160, 160, 160, 0.3);
+    font-family: "Raleway", Helvetica, sans-serif;
+   font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.25em; 
+}

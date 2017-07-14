@@ -1,0 +1,10 @@
+<?php
+	if(isset($_COOKIE['username'])){
+		unset($_COOKIE['username']);
+		setcookie('username','',time());
+		header('location:index.php');
+	}
+	session_start();
+	session_destroy();
+	header('location:index.php');
+?>
